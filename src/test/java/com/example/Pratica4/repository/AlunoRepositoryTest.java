@@ -29,7 +29,7 @@ class AlunoRepositoryTest {
         // Assert
         assertNotNull(alunoEncontrado);
         assertEquals(alunoSalvo.getId(), alunoEncontrado.getId());
-        assertEquals("Teste Repo", alunoEncontrado.getNome());
+        assertEquals("Teste repository", alunoEncontrado.getNome());
         assertFalse(alunoEncontrado.isPremium());
     }
 }
